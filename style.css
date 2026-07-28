@@ -1,0 +1,94 @@
+* {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+body {
+    background-color: #1A1E86;
+}
+.hero-image{
+    background-image: url("./images/champions-logo.png") ;
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    width: 100%;
+    font-size: 4rem;
+}
+
+.topic-section-title {
+    font-family: 'Comic Neue', sans-serif; 
+    font-size: 60px;
+    width: 100%;                     
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #F7D523;
+    background-color: #275AA5;
+    padding: 10px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    height: 187px;
+}
+.topic-section-letter {
+    font-family: 'Comic Neue', sans-serif; 
+    font-size: 60px;
+    width: 100%;                     
+    text-align: top;
+    color: #F7D523;
+    padding: 10px 20px;
+
+}
+.topic-section-click {
+    font-family: 'Comic Neue', sans-serif; 
+    font-size: 20px;                   
+    text-align: center;
+    color: #F7D523;
+
+}
+.card-image {
+    width: 100%;
+    height: 250px;
+}
+.info{
+    font-size: 1.25em;
+    color: #F7D523;
+}
+
+.one-column{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: rgb(0, 0, 140);
+    border-radius: 16px;
+}
+
+.card-text{
+    text-align: center;
+    color: #F7D523;
+}
