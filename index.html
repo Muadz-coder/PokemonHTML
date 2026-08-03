@@ -1,44 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><style>
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@200..700&display=swap');
-</style>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Champion</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:wght@300;400;700&family=Oswald:wght@200;700&display=swap');
+    </style>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <section class="hero-image">
-    </section>
-    <!-- Two columns layout start -->
+
+    <!-- Hero Section -->
+    <section class="hero-image"></section>
+
+    <!-- Intro Section -->
     <section class="one-column">
         <div class="image">
-            <img src="./images/logo.png" alt="Pokemon logo">
+            <img class="pokemon-image" src="./images/logo.png" alt="Pokemon logo">
         </div>
+
         <div class="info">
-            <h1>Pokemon Champion</h1>
-            <p>Pokemon Champion Pokémon Champions is a battle-focused, cross-platform Pokémon game designed for competitive and casual play, available on Nintendo Switch and mobile devices.</p>
+            <p>
+                Pokémon Champions is a battle-focused, cross-platform Pokémon game designed for competitive and casual play, available on Nintendo Switch and mobile devices.
+            </p>
         </div>
     </section>
-        <div class="topic-section-title">
-            <h2 class="topic-section-letter">Cool things in Pokemon Champion:</h2>
-            <p class="topic-section-click">Click the images below for more info</p>
-        </div>
-    <!-- Two columns layout end -->
+
+    <!-- Topic Section -->
+    <a href="cool-things.html" class="topic-section-title">
+        <h2 class="topic-section-letter">Cool things in Pokemon Champion:</h2>
+        <p class="topic-section-click">Click the images below for more info</p>
+    </a>
+
+
+    <!-- Cards Section -->
     <section class="three-column">
         <div class="card">
-            <img class ="card-image" src="./images/home.png" alt="Pokemon Home">
+            <img class="card-image" src="./images/home.png" alt="Pokemon Home">
             <h2 class="card-text">Pokemon Home</h2>
         </div>
+
         <div class="card">
-            <img class ="card-image" src="./images/mega.png" alt="mega pokemon">
+            <img class="card-image" src="./images/mega.png" alt="Mega Pokemon">
             <h2 class="card-text">Inside the game</h2>
         </div>
+
         <div class="card">
-            <img class ="card-image" src="./images/inci.png" alt="inci">
+            <img class="card-image" src="./images/inci.png" alt="Competitive">
             <h2 class="card-text">Competitive</h2>
         </div>
     </section>
-    <h2 class="topic-section-title">Pokemon Champion Website</h2>
+
+    <!-- Footer Title -->
+    <section>
+        <h2 class="topic-section-title">Pokemon Champion Website</h2>
+    </section>
+
 </body>
 </html>
