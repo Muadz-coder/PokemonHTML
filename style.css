@@ -24,7 +24,7 @@ body {
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: 50px;
+    gap: 80px;
     align-items: center;
     padding: 20px 40px;
 }
@@ -32,9 +32,12 @@ body {
 .sort {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 90px;
 }
 
+.news{
+    font-size: 40px;
+}
 
 
 .logo-image {
@@ -51,6 +54,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    height: 844px;
+
+    border-radius: 0 0 15% 15%;
 }
 
 .hero-text {
@@ -76,12 +82,14 @@ body {
 
 .one-column1 {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 1fr;
     gap: 50px;
     width: 80%;
     margin: 120px auto;
     align-items: center;
 }
+
+
 
 
 .image {
@@ -229,10 +237,13 @@ body {
 .content h3 {
     font-size: 50px;
     margin-bottom: 15px;
+    color: #0760be;
 }
 
 .content p {
     font-size: 25px;
+    color: #F7D523;
+    
 }
 
 
@@ -259,6 +270,11 @@ body {
     height: auto;
     display: block;
     margin: auto;
+}
+
+.sort a{
+    text-decoration: none;
+    color: #F7D523;
 }
 
 
