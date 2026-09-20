@@ -202,13 +202,13 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     width: 90%;
-    margin: 40px auto 100px;
+    margin-right: 500px;
+    margin-left: 75.5px;
 }
 
 .card {
     width: 100%;
     padding: auto;
-    margin-left: 82.5px;
 }
 
 .card-image {
