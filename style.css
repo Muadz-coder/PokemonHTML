@@ -1,7 +1,8 @@
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-        'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
+    font-family: "Sniglet", system-ui;
+    font-family: "Grandstander", cursive;
     margin: 0;
     padding: 0;
 }
@@ -89,6 +90,13 @@ body {
     align-items: center;
 }
 
+.two-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    width: 100%;
+    margin: 40px auto 100px;
+}
 
 
 
@@ -118,7 +126,6 @@ body {
     padding: 50px 40px;
     font-size: 32px;
     line-height: 1.6;
-    font-family: 'Comic Neue', sans-serif;
     text-align: center;
     min-height: 400px;
     display: flex;
@@ -133,13 +140,21 @@ body {
     padding: 50px 40px;
     font-size: 32px;
     line-height: 1.6;
-    font-family: 'Comic Neue', sans-serif;
     text-align: center;
     min-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.one-column1 p {
+    font-family: "Sniglet", system-ui;
+}
+
+.one-column p {
+    font-family: "Sniglet", system-ui;
+}
+
 
 
 
@@ -192,6 +207,8 @@ body {
 
 .card {
     width: 100%;
+    padding: auto;
+    margin-left: 82.5px;
 }
 
 .card-image {
@@ -238,13 +255,29 @@ body {
     font-size: 50px;
     margin-bottom: 15px;
     color: #0760be;
+    font-family: "Grandstander", cursive;
 }
 
 .content p {
     font-size: 25px;
     color: #F7D523;
+    font-family: "Sniglet", system-ui;
     
 }
+
+.topic-section-title p {
+    font-size: 25px;
+    color: #F7D523;
+    font-family: "Sniglet", system-ui;
+    
+}
+
+.topic-section-title h2 {
+    font-size: 80px;
+    color: #F7D523;
+    font-family: "Grandstander", cursive;
+}
+    
 
 
 
@@ -277,4 +310,12 @@ body {
     color: #F7D523;
 }
 
+.topic-section-title{
+    font-family: "Grandstander", cursive;   
+    font-size: 80px;
+}
+
+.iframe{
+    border-radius: 18px;
+}
 
