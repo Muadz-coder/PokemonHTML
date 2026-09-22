@@ -112,10 +112,10 @@ body {
     border-radius: 20px;
 }
 
-.pokemon-image1 {
+.pokemon-imagesize {
     width: 100%;
     max-width: 500px;
-    height: auto;
+    height: 400px;
     border-radius: 20px;
 }
 
