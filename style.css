@@ -252,6 +252,7 @@ body {
     padding: 20px;
 }
 
+
 .hover:hover .content {
     opacity: 1;
 }
@@ -310,9 +311,18 @@ body {
     margin: auto;
 }
 
-.sort a{
+.sort a {
     text-decoration: none;
     color: #F7D523;
+}
+
+.sort a .news {
+    color: #F7D523;
+    transition: color 0.3s ease;
+}
+
+.sort a:hover .news {
+    color: white;
 }
 
 .topic-section-title{
