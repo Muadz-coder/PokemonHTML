@@ -234,6 +234,13 @@ body {
     text-decoration: none;
 }
 
+.hover-transition {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
 .content {
     width: 100%;
     height: 100%;
@@ -296,10 +303,15 @@ body {
 }
 
 .card-transition {
+    border-radius: 20px;
     width: 100%;
-    max-width: 950px;
+    max-width: 686px;
     height: auto;
-    margin: 0 auto;
+    display: block;
+    margin: auto;
+    overflow: hidden; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .pokemonlink-image {
@@ -309,6 +321,17 @@ body {
     height: auto;
     display: block;
     margin: auto;
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.card-transition:hover .pokemonlink-image {
+    transform: scale(1.08);
+    filter: brightness(1.08);
+}
+
+.card-transition:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
 }
 
 .sort a {
