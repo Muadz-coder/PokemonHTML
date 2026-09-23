@@ -1,3 +1,6 @@
+
+/* Fonts for the all the pages */
+
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
@@ -7,6 +10,7 @@
     padding: 0;
 }
 
+/* Main code for the background of all the pages*/
 body {
     width: 100%;
     min-height: 100vh;
@@ -17,6 +21,7 @@ body {
 }
 
 
+/* Background of the home screen */
 
 .home-screen {
     width: 100%;
@@ -29,6 +34,8 @@ body {
     align-items: center;
     padding: 20px 40px;
 }
+
+/* Seperation of the image and text link */
 
 .sort {
     display: flex;
@@ -71,6 +78,7 @@ body {
 }
 
 
+/* Intro section for all pages */
 
 .one-column {
     display: grid;
@@ -89,6 +97,8 @@ body {
     margin: 120px auto;
     align-items: center;
 }
+
+/* Video section */
 
 .two-column {
     display: grid;
@@ -118,6 +128,8 @@ body {
     height: 400px;
     border-radius: 20px;
 }
+
+/* Font custimizations*/
 
 .info {
     color: #F7D523;
@@ -157,6 +169,7 @@ body {
 
 
 
+/* Footer customizations */
 
 .topic-section-title {
     font-family: 'Comic Neue', sans-serif;
@@ -186,6 +199,7 @@ body {
     color: #F7D523;
     padding: 0;
 }
+
 
 .topic-section-click {
     font-family: 'Comic Neue', sans-serif;
@@ -223,6 +237,8 @@ body {
     border-radius: 20px;
     display: block;
 }
+
+/* Hovering aethestic for the cards*/
 
 .hover {
     position: relative;
@@ -293,6 +309,7 @@ body {
     
 
 
+/* Hover for the offical link */
 
 .pokemonlink-column {
     min-height: 500px;
@@ -301,6 +318,7 @@ body {
     align-items: center;
     padding: 40px;
 }
+
 
 .card-transition {
     border-radius: 20px;
